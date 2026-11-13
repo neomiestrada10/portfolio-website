@@ -49,4 +49,6 @@ h2 {
 
 .education_and_skills {
     float: right;
+    width: auto;
 }
+
