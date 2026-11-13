@@ -22,16 +22,27 @@ h2 {
 
 .projects_and_experiences {
     clear: both; /* moves the section below any floated items */ 
+    float: left;
+    width: 65%;
 }
 
 .experience {
     display: flow-root; /* helps parent contain its floated elements */
 }
 
-.location {
+.loc_and_date {
     float: right;
 }
 
 .job_org_and_role {
     float: left;
+}
+
+.education {
+    float: right;
+}
+
+.resume {
+    clear: both;
+    display: flow-root;
 }
