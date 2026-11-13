@@ -23,7 +23,7 @@ h2 {
 .projects_and_experiences {
     clear: both; /* moves the section below any floated items */ 
     float: left;
-    width: 65%;
+    width: 60%;
 }
 
 .experience {
@@ -38,10 +38,6 @@ h2 {
     float: left;
 }
 
-.education_and_skills {
-    float: right;
-}
-
 .resume {
     clear: both;
     display: flow-root;
@@ -49,4 +45,8 @@ h2 {
 
 .school_and_major {
     float: left;
+}
+
+.education_and_skills {
+    float: right;
 }
