@@ -23,7 +23,7 @@ h2 {
 .projects_and_experiences {
     clear: both; /* moves the section below any floated items */ 
     float: left;
-    width: 60%;
+    width: 58%;
 }
 
 .experience {
@@ -49,6 +49,9 @@ h2 {
 
 .education_and_skills {
     float: right;
-    width: auto;
+    width: 38%;
 }
 
+.skills {
+    clear: both;
+}
