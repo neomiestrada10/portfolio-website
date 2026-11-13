@@ -8,6 +8,13 @@ h1 {
 }
 
 .photo {
+    float: left;
+    margin-right: 20px;
     width: 250px;
     border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.projects_and_experiences {
+    clear: both;
 }
