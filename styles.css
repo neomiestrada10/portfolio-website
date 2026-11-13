@@ -23,3 +23,15 @@ h2 {
 .projects_and_experiences {
     clear: both; /* moves the section below any floated items */ 
 }
+
+.experience {
+    display: flow-root; /* helps parent contain its floated elements */
+}
+
+.location {
+    float: right;
+}
+
+.job_org_and_role {
+    float: left;
+}
