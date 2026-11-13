@@ -84,3 +84,13 @@ footer h2 {
     display: block; /*Move contents on top of each other instead of side by side */
     margin-bottom: 5px;
 }
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    font-family: "Montserrat";
+}
+
+.form-group textarea {
+    height: 120px;
+}
