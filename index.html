@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <h1>Neomi Estrada</h1>
-    <div>
+    <div> <!-- Groups picture and description -->
         <!-- Picture -->
         <img src="picture1.JPG" alt="Picture of me at a diner" class="photo">
         <p>A sofware engineer in training. Proficient in front-end development
@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <div class="projects_and_experiences">
+    <div class="projects_and_experiences"> <!-- Groups projects and experiences so they can all go below floated items from above -->
         <h2>Projects</h2>
         <h3>Chicken Katsu Recipe Page</h3>
         <ul>
@@ -34,13 +34,16 @@
             <li>Implemented a JS file to make the page more interactive and user-friendly by adding buttons.</li>
         </ul>
         <h2>Relevant Experiences</h2>
-        <div class="experience">
-            <div class="job_org_and_role">
-            <h3>Together Representing an Organization for Philippine Americans</h3>
-            <h3><i>President</i></h3>
-            </div>
-            <p class="location">Queens, NY</p>
 
+        <div class="experience"> <!-- Groups experiences so the floating doesn't get messed up -->
+            <div class="job_org_and_role"> <!-- Groups job org and role so they aren't next to each other which is the default -->
+                <h3>Together Representing an Organization for Philippine Americans</h3>
+                <h3><i>President</i></h3>
+            </div>
+            <div class="loc_and_date"> <!-- Groups loc and date for the same reason as job org and role -->
+                <p>Queens</p>
+                <p>Sep 2024 - May 2025</p>
+            </div>
         </div>
         <ul>
             <li>Organized 12+ monthly events, increasing community engagement and contributing to 60% of membership
@@ -53,6 +56,7 @@
                 to the
                 organization being named Student Organization of the Year (2024–2025).</li>
         </ul>
+
         <h3><i>Treasurer</i></h3>
         <ul>
             <li>Managed the monthly organization budget by tracking allocations and expenditures to support accurate
@@ -61,9 +65,17 @@
             <li>Reviewed payment requests and expense statements under tight deadlines to ensure timely reimbursements.
             </li>
         </ul>
-        <h3>Open Bible Church International <br>
-            <i>Assistant Treasurer</i>
-        </h3>
+
+        <div class="experience"> 
+            <div class="job_org_and_role"> 
+                <h3>Open Bible Church International</h3>
+                <h3><i>Assistant Treasurer</i></h3>
+            </div>
+            <div class="loc_and_date">
+                <p>Queens</p>
+                <p>Jan 2023 - Mar 2025</p>
+            </div>
+        </div>
         <ul>
             <li> Organized financial records in Google Sheets, reducing weekly reporting time by approximately 1 hour.
             </li>
