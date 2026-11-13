@@ -1,9 +1,9 @@
 body {
     background-color: #F7F5EB;
-    font-family:"Montserrat", sans-serif;
+    font-family: "Monserrat";
 }
 
 h1 {
     color:#E8A2A2;
-    font-family: cursive;
+    text-align: center;
 }
