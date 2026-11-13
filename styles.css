@@ -55,3 +55,8 @@ h2 {
 .skills {
     clear: both;
 }
+
+#myPhoto {
+    width: 250px;
+    height: 350px;
+}

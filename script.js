@@ -8,9 +8,9 @@ let photos = [
         caption: "Exploring my city."
     },
     {
-        image: "nature.jped",
+        image: "nature.jpeg",
         caption: "Enjoying nature's beauty."
-    }
+    },
     {
         image: "music.jpg",
         caption: "Listening to live music."
@@ -23,6 +23,6 @@ document.getElementById("changePhoto").addEventListener("click", function () {
     if (currentPhoto >= photos.length) {
         currentPhoto = 0;
     }
-    document.getElementById("food").src = photos[currentPhoto].image;
+    document.getElementById("myPhoto").src = photos[currentPhoto].image;
     document.getElementById("photoCaption").textContent = photos[currentPhoto].caption;
 });
