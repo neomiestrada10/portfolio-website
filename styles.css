@@ -7,9 +7,14 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-decoration: underline;
+}
+
 .photo {
     float: left;
     margin-right: 20px;
+    border: 4px solid #000;
     width: 250px;
     border-radius: 8px;
     margin-bottom: 20px;
