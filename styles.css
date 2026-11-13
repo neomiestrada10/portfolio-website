@@ -11,6 +11,7 @@ h2 {
     text-decoration: underline;
 }
 
+/* profile picture */
 .photo {
     float: left;
     margin-right: 20px;
@@ -20,14 +21,21 @@ h2 {
     margin-bottom: 20px;
 }
 
+.resume {
+    clear: both;
+    display: flow-root;
+}
+
 .projects_and_experiences {
-    clear: both; /* moves the section below any floated items */ 
+    clear: both;
+    /* moves the section below any floated items */
     float: left;
     width: 58%;
 }
 
 .experience {
-    display: flow-root; /* helps parent contain its floated elements */
+    display: flow-root;
+    /* helps parent contain its floated elements */
 }
 
 .loc_and_date {
@@ -38,26 +46,41 @@ h2 {
     float: left;
 }
 
-.resume {
-    clear: both;
-    display: flow-root;
+.education_and_skills {
+    float: right;
+    width: 38%;
 }
 
 .school_and_major {
     float: left;
 }
 
-.education_and_skills {
-    float: right;
-    width: 38%;
-}
-
 .skills {
     clear: both;
 }
 
+/* Hobbies Photo */
 #myPhoto {
     width: 250px;
     height: 350px;
     border-radius: 8px;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer h2 {
+    text-decoration: none;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block; /*Move contents on top of each other instead of side by side */
+    margin-bottom: 5px;
 }
