@@ -147,8 +147,22 @@
 
                 <form id="contact-form">
                     <!-- form is used to collect user input and submit it to a server, so it's appropriate for this section -->
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Your name"> <!-- creates interactive controls so users can input data -->
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name">
+                        <!-- creates interactive controls so users can input data -->
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Write your message..."></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
                 </form>
             </footer>
         </div>
