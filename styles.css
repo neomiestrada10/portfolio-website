@@ -1,7 +1,8 @@
 body {
-    background-color: #d6d6d6;
+    background-color: #EFE9E1;
     font-family: "Monserrat";
     font-size: medium;
+    color: #322D29;
 }
 
 h1 {
@@ -16,7 +17,7 @@ h2 {
 .photo {
     float: left;
     margin-right: 20px;
-    border: 4px solid #000;
+    border: 4px solid #72383D;
     width: 250px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -68,7 +69,7 @@ h2 {
 }
 
 footer {
-    background-color: #ffffff;
+    background-color: #AC9C8D;
     padding: 20px;
     margin-top: 40px;
 }
@@ -94,4 +95,13 @@ footer h2 {
 
 .form-group textarea {
     height: 120px;
+}
+
+footer button {
+    background-color: #72383D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
