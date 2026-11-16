@@ -134,3 +134,7 @@ footer button {
     font-size: 15px;
     text-decoration: none; /* removes underline */
 }
+
+html {
+    scroll-behavior: smooth; /* makes navigation links scroll smoothly rather than jumping to sections */
+}
