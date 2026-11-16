@@ -116,7 +116,7 @@ footer button {
 
 .logo {
     color: #EFE9E1;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -131,6 +131,6 @@ footer button {
 
 .nav-links a{
     color: #EFE9E1;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none; /* removes underline */
 }
