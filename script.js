@@ -1,3 +1,4 @@
+// Click Me button for Hobbies section //
 let photos = [
     {
         image: "food.jpeg",
