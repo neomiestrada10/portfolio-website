@@ -28,7 +28,7 @@ h2 {
     display: flow-root;
 }
 
-.projects_and_experiences {
+.projects-and-experiences {
     clear: both;
     /* moves the section below any floated items */
     float: left;
@@ -40,20 +40,20 @@ h2 {
     /* helps parent contain its floated elements */
 }
 
-.loc_and_date {
+.loc-and-date {
     float: right;
 }
 
-.job_org_and_role {
+.job-org-and-role {
     float: left;
 }
 
-.education_and_skills {
+.second-column {
     float: right;
     width: 38%;
 }
 
-.school_and_major {
+.school-and-major {
     float: left;
 }
 
