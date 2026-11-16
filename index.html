@@ -38,8 +38,9 @@
             with a team and contribute to meaningful projects.
         </p>
     </div>
+    <!-- Entire Resume Content -->
     <div class="resume">
-        <div class="projects_and_experiences">
+        <div class="projects-and-experiences">
             <!-- Groups projects and experiences so they can all go below floated items from above -->
             <h2>Projects</h2>
             <h3>Chicken Katsu Recipe Page</h3>
@@ -49,14 +50,15 @@
                 <li>Implemented a JS file to make the page more interactive and user-friendly by adding buttons.</li>
             </ul>
             <h2>Relevant Experiences</h2>
-
-            <div class="experience"> <!-- Groups experiences so the floating doesn't get messed up -->
-                <div class="job_org_and_role">
-                    <!-- Groups job org and role so they aren't next to each other which is the default -->
+            <!-- Groups experiences so the floating doesn't get messed up -->
+            <div class="experience">
+                <!-- Groups job org and role so they aren't next to each other which is the default -->
+                <div class="job-org-and-role">
                     <h3>Together Representing an Organization for Philippine Americans</h3>
                     <h3><i>President</i></h3>
                 </div>
-                <div class="loc_and_date"> <!-- Groups loc and date for the same reason as job org and role -->
+                <!-- Groups loc and date for the same reason as job org and role -->
+                <div class="loc-and-date">
                     <p>Queens</p>
                     <p>Sep 2024 - May 2025</p>
                 </div>
@@ -72,12 +74,12 @@
                     to the
                     organization being named Student Organization of the Year (2024–2025).</li>
             </ul>
-
+            <!-- Second experience under the same class as first -->
             <div class="experience">
-                <div class="job_org_and_role">
+                <div class="job-org-and-role">
                     <h3><i>Assistant Treasurer</i></h3>
                 </div>
-                <div class="loc_and_date">
+                <div class="loc-and-date">
                     <p>Feb 2024 - May 2024</p>
                 </div>
             </div>
@@ -89,13 +91,13 @@
                     reimbursements.
                 </li>
             </ul>
-
+            <!-- Third experience -->
             <div class="experience">
-                <div class="job_org_and_role">
+                <div class="job-org-and-role">
                     <h3>Open Bible Church International</h3>
                     <h3><i>Assistant Treasurer</i></h3>
                 </div>
-                <div class="loc_and_date">
+                <div class="loc-and-date">
                     <p>Queens</p>
                     <p>Jan 2023 - Mar 2025</p>
                 </div>
@@ -110,12 +112,13 @@
                 <li>Reviewed financial records prepared by other team members, improving the accuracy and reliability of
                     financial data.</li>
             </ul>
+            <!-- Fourth experience -->
             <div class="experience">
-                <div class="job_org_and_role">
+                <div class="job-org-and-role">
                     <h3>Sunnyside Community Services</h3>
                     <h3><i>Pre-K Assistant Teacher</i></h3>
                 </div>
-                <div class="loc_and_date">
+                <div class="loc-and-date">
                     <p>Queens</p>
                     <p>Oct 2022 - Jun 2023</p>
                 </div>
@@ -130,17 +133,19 @@
                     relationships.</li>
             </ul>
         </div>
-
-        <div class="education_and_skills">
+        <!-- Grouping education, skills, hobbies, and contact info so they can all go to the right column of the page -->
+        <div class="second-column">
+            <!-- Education -->
             <h2>Education</h2>
-            <div class="school_and_major">
+            <div class="school-and-major">
                 <p>Queens College, CUNY</p>
                 <p><i>Applied Mathematics</i></p>
             </div>
-            <div class="loc_and_date">
+            <div class="loc-and-date">
                 <p>Queens, NY</p>
                 <p>May 2026</p>
             </div>
+            <!-- Skills -->
             <div class="skills">
                 <h2>Skills</h2>
                 <h3>Tools & Programming Languages</h3>
@@ -148,33 +153,37 @@
                 <h3>Certifications</h3>
                 <p>Google AI Professional Certificate</p>
             </div>
+            <!-- Hobbies -->
             <h2>Hobbies</h2>
-            <div class="photo_hobbies">
+            <div class="photo-hobbies">
                 <img id="myPhoto" src="food.jpeg" alt="A meal at a restaurant I was new at">
                 <p id="photoCaption">Discovering new food places.</p>
                 <button id="changePhoto">Click Me!</button>
             </div>
+            <!-- Adding footer -->
             <footer>
                 <h2>Let's Connect</h2>
                 <p>Have a question or want to work together?</p>
-
+                <!-- form is used to collect user input and submit it to a server, so it's appropriate for this section -->
                 <form id="contact-form">
-                    <!-- form is used to collect user input and submit it to a server, so it's appropriate for this section -->
+                    <!-- First form and label for name -->
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" id="name" placeholder="Your name">
                         <!-- creates interactive controls so users can input data -->
+                        <input type="text" id="name" placeholder="Your name">
                     </div>
-
+                    <!-- Second form and label for email -->
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="text" id="email" placeholder="Your email">
                     </div>
-
+                    <!-- Third form and label for message -->
                     <div class="form-group">
                         <label for="message">Message</label>
+                        <!-- Creates multi-line text input box -->
                         <textarea id="message" placeholder="Write your message..."></textarea>
                     </div>
+                    <!-- Button for submission -->
                     <button type="submit">Submit</button>
                 </form>
             </footer>
