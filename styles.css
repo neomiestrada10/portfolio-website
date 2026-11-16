@@ -113,8 +113,16 @@ footer button {
     padding: 10px;
 }
 
-.name {
+.logo {
     color: #EFE9E1;
     font-size: 25px;
     font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
 }
