@@ -108,6 +108,7 @@ footer button {
 
 /* Navbar */
 .navbar {
+    display: flex;
     align-items: center;
     background-color: #72383D;
     padding: 10px;
@@ -121,8 +122,15 @@ footer button {
 
 .nav-links {
     display: flex;
-    list-style: none;
-    gap: 25px;
+    list-style: none; /* Remove bullet points */
+    gap: 25px; /* Add gap between links */
     margin: 0;
     padding: 0;
+    margin-left: auto;
+}
+
+.nav-links a{
+    color: #EFE9E1;
+    font-size: 15px;
+    text-decoration: none;
 }
