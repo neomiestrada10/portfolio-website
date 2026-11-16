@@ -108,29 +108,29 @@ footer button {
 
 /* Navbar */
 .navbar {
-    display: flex;
-    align-items: center;
+    display: flex; /* puts child elements side-by-side */
+    align-items: center; /* centers items inside flexbox container */
     background-color: #72383D;
-    padding: 10px;
+    padding: 15px;
 }
 
 .logo {
     color: #EFE9E1;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .nav-links {
-    display: flex;
-    list-style: none; /* Remove bullet points */
-    gap: 25px; /* Add gap between links */
+    display: flex; /* puts child elements side-by-side */
+    list-style: none; /* removes bullet points */
+    gap: 25px; /* adds gap between links */
     margin: 0;
     padding: 0;
-    margin-left: auto;
+    margin-left: auto; /* puts links to the left */
 }
 
 .nav-links a{
     color: #EFE9E1;
-    font-size: 15px;
-    text-decoration: none;
+    font-size: 20px;
+    text-decoration: none; /* removes underline */
 }
