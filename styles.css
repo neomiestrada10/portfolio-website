@@ -105,3 +105,16 @@ footer button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* Navbar */
+.navbar {
+    align-items: center;
+    background-color: #72383D;
+    padding: 10px;
+}
+
+.name {
+    color: #EFE9E1;
+    font-size: 25px;
+    font-weight: bold;
+}
