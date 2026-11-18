@@ -18,7 +18,8 @@ h2 {
     border: 0px solid;
     background-color: #72383D;
     padding: 10px;
-    display: flow-root; /* fixes overlapping */
+    display: flow-root;
+    /* fixes overlapping */
     color: #EFE9E1;
     margin-top: 10px;
 }
@@ -31,7 +32,7 @@ h2 {
 .about-me-right {
     float: right;
     width: 68%;
-    margin-top: 150px;    
+    margin-top: 150px;
 }
 
 /* Styling grad picture */
@@ -48,8 +49,7 @@ h2 {
 }
 
 .projects-and-experiences {
-    clear: both;
-    /* moves the section below any floated items */
+    clear: both; /* moves the section below any floated items */
     float: left;
     width: 58%;
 }
@@ -79,8 +79,35 @@ h2 {
     margin-top: 10px;
 }
 
+.education-box {
+    border: 0px solid;
+    background-color: #72383D;
+    padding: 10px;
+    margin-top: 10px;
+    display: flow-root;
+}
+
+.loc-and-date-education {
+    float: right;
+}
+
+.hobbies-box {
+    border: 0px solid;
+    background-color: #72383D;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer-box {
+    border: 0px solid;
+    background-color: #72383D;
+    padding: 10px;
+    margin-top: 10px;
+}
+
 .loc-and-date {
     float: right;
+    display: flow-root;
 }
 
 .job-org-and-role {
@@ -89,15 +116,15 @@ h2 {
 
 .second-column {
     float: right;
-    width: 38%;
-    border: 0px solid;
-    background-color: #72383D;
-    padding: 10px;
-    margin-top: 10px;
+    width: 41%;
 }
 
 .school-and-major {
     float: left;
+}
+
+.loc-and-date-education {
+    float: right;
 }
 
 .skills {
@@ -126,7 +153,8 @@ footer h2 {
 }
 
 .form-group label {
-    display: block; /*Move contents on top of each other instead of side by side */
+    display: block;
+    /*Move contents on top of each other instead of side by side */
     margin-bottom: 5px;
 }
 
@@ -151,8 +179,10 @@ footer button {
 
 /* Navbar */
 .navbar {
-    display: flex; /* puts child elements side-by-side */
-    align-items: center; /* centers items inside flexbox container */
+    display: flex;
+    /* puts child elements side-by-side */
+    align-items: center;
+    /* centers items inside flexbox container */
     background-color: #322D29;
     padding: 20px;
 }
@@ -164,20 +194,26 @@ footer button {
 }
 
 .nav-links {
-    display: flex; /* puts child elements side-by-side */
-    list-style: none; /* removes bullet points */
-    gap: 25px; /* adds gap between links */
+    display: flex;
+    /* puts child elements side-by-side */
+    list-style: none;
+    /* removes bullet points */
+    gap: 25px;
+    /* adds gap between links */
     margin: 0;
     padding: 0;
-    margin-left: auto; /* puts links to the left */
+    margin-left: auto;
+    /* puts links to the left */
 }
 
-.nav-links a{
+.nav-links a {
     color: #EFE9E1;
     font-size: 18px;
-    text-decoration: none; /* removes underline */
+    text-decoration: none;
+    /* removes underline */
 }
 
 html {
-    scroll-behavior: smooth; /* makes navigation links scroll smoothly rather than jumping to sections */
+    scroll-behavior: smooth;
+    /* makes navigation links scroll smoothly rather than jumping to sections */
 }
