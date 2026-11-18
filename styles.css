@@ -26,9 +26,10 @@ h2 {
 .photo {
     float: left;
     margin-right: 20px;
-    border: 4px solid #322D29;
+    border: 5px solid #322D29;
     width: 300px;
     margin-bottom: 20px;
+    margin-left: 5px;
 }
 
 .resume {
