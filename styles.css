@@ -2,7 +2,7 @@ body {
     background-color: #EFE9E1;
     font-family: "Monserrat";
     font-size: medium;
-    color: #FFF;
+    color: #EFE9E1;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h2 {
     background-color: #72383D;
     padding: 10px;
     display: flow-root; /* fixes overlapping */
-    color: #FFF;
+    color: #EFE9E1;
     margin-top: 10px;
 }
 
@@ -55,8 +55,28 @@ h2 {
 }
 
 .experience {
-    display: flow-root;
-    /* helps parent contain its floated elements */
+    display: flow-root; /* helps parent contain its floated elements */
+}
+
+.experiences-box {
+    border: 0px solid;
+    background-color: #72383D;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.projects-box {
+    border: 0px solid;
+    background-color: #72383D;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.skills-box {
+    border: 0px solid;
+    background-color: #72383D;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .loc-and-date {
@@ -70,6 +90,10 @@ h2 {
 .second-column {
     float: right;
     width: 38%;
+    border: 0px solid;
+    background-color: #72383D;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .school-and-major {
@@ -80,7 +104,7 @@ h2 {
     clear: both;
 }
 
-/* Hobbies Photo */
+/* Hobbies photo */
 #myPhoto {
     width: 250px;
     height: 350px;
