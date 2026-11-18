@@ -2,7 +2,7 @@ body {
     background-color: #EFE9E1;
     font-family: "Monserrat";
     font-size: medium;
-    color: #322D29;
+    color: #FFF;
 }
 
 h1 {
@@ -13,12 +13,21 @@ h2 {
     text-decoration: underline;
 }
 
-/* profile picture */
+.container1 {
+    border: 0px solid;
+    background-color: #72383D;
+    padding: 5px;
+    display: flow-root;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+/* grad picture */
 .photo {
     float: left;
     margin-right: 20px;
-    border: 4px solid #72383D;
-    width: 250px;
+    border: 4px solid #322D29;
+    width: 300px;
     margin-bottom: 20px;
 }
 
@@ -109,7 +118,7 @@ footer button {
 .navbar {
     display: flex; /* puts child elements side-by-side */
     align-items: center; /* centers items inside flexbox container */
-    background-color: #72383D;
+    background-color: #322D29;
     padding: 20px;
 }
 
