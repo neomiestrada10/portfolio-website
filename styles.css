@@ -111,13 +111,13 @@ footer button {
     display: flex; /* puts child elements side-by-side */
     align-items: center; /* centers items inside flexbox container */
     background-color: #72383D;
-    padding: 15px;
+    padding: 20px;
 }
 
 .logo {
     color: #EFE9E1;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 35px;
+    font-style: italic;
 }
 
 .nav-links {
@@ -131,7 +131,7 @@ footer button {
 
 .nav-links a{
     color: #EFE9E1;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none; /* removes underline */
 }
 
