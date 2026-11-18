@@ -13,23 +13,33 @@ h2 {
     text-decoration: underline;
 }
 
-.container1 {
+/* About Me container */
+.about-me {
     border: 0px solid;
     background-color: #72383D;
-    padding: 5px;
-    display: flow-root;
+    padding: 10px;
+    display: flow-root; /* fixes overlapping */
     color: #FFF;
     margin-top: 10px;
 }
 
-/* grad picture */
-.photo {
+.about-me-left {
     float: left;
-    margin-right: 20px;
+    width: 30%;
+}
+
+.about-me-right {
+    float: right;
+    width: 68%;
+    margin-top: 150px;    
+}
+
+/* Styling grad picture */
+.photo-styling {
+    float: left;
     border: 5px solid #322D29;
     width: 300px;
-    margin-bottom: 20px;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 .resume {
