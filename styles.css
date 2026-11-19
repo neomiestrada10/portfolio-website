@@ -49,13 +49,15 @@ h2 {
 }
 
 .projects-and-experiences {
-    clear: both; /* moves the section below any floated items */
+    clear: both;
+    /* moves the section below any floated items */
     float: left;
     width: 58%;
 }
 
 .experience {
-    display: flow-root; /* helps parent contain its floated elements */
+    display: flow-root;
+    /* helps parent contain its floated elements */
 }
 
 .experiences-box {
@@ -139,14 +141,16 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
 }
+
 footer {
     background-color: #72383D;
     padding: 20px;
     margin-top: 10px;
+    color: #EFE9E1;
 }
 
 footer h2 {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .form-group {

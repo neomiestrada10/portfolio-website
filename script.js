@@ -10,7 +10,7 @@ let photos = [
     },
     {
         image: "nature.jpeg",
-        caption: "Enjoying nature's beauty."
+        caption: "Catching sunsets."
     },
     {
         image: "music.jpg",
