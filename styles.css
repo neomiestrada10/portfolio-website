@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    /* border-box tells the browser to include padding and borders within the specified 
+    width which helps prevent containers from becoming wider than their available space. */
+}
+
 body {
     background-color: #EFE9E1;
     font-family: "Monserrat";
@@ -248,7 +254,6 @@ html {
 /* For small phones */
 @media (max-width: 600px) {
 
-    /* About Me section */
     .about-me-left,
     .about-me-right {
         float: none;
@@ -262,8 +267,8 @@ html {
     .photo-styling {
         float: none;
         width: 100%;
-        max-width: 300px;
         height: auto;
+        margin-left: 0px;
     }
 
     /* Main resume columns */
@@ -276,19 +281,21 @@ html {
     /* Images */
     .quote-styling {
         width: 100%;
-        max-width: 450px;
+        max-width: 100%;
         height: auto;
-        margin-left: 0;
+        margin-left: 0px;
     }
 
     #images {
-        max-width: 100%;
-        height: auto;
+        max-width: 300px;
+        height: 350px;
     }
 
     /* Navigation bar */
     .navbar {
         flex-wrap: wrap;
+        /* allows flex items to break onto multiple lines when there isn't enough 
+        room for them to fit on a single row or column */
     }
 
     .nav-links {
