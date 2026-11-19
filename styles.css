@@ -10,6 +10,11 @@ body {
     color: #FFF;
 }
 
+.override {
+    text-align: center;
+    color: #EFE9E1;
+}
+
 h2 {
     text-decoration: underline;
 }
