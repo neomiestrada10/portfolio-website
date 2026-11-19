@@ -24,6 +24,6 @@ document.getElementById("changePhoto").addEventListener("click", function () {
     if (currentPhoto >= photos.length) {
         currentPhoto = 0;
     }
-    document.getElementById("myPhoto").src = photos[currentPhoto].image;
+    document.getElementById("images").src = photos[currentPhoto].image;
     document.getElementById("photoCaption").textContent = photos[currentPhoto].caption;
 });
