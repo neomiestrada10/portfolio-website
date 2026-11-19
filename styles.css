@@ -98,13 +98,6 @@ h2 {
     margin-top: 10px;
 }
 
-.footer-box {
-    border: 0px solid;
-    background-color: #72383D;
-    padding: 10px;
-    margin-top: 10px;
-}
-
 .loc-and-date {
     float: right;
     display: flow-root;
@@ -147,7 +140,7 @@ h2 {
     cursor: pointer;
 }
 footer {
-    background-color: #AC9C8D;
+    background-color: #72383D;
     padding: 20px;
     margin-top: 40px;
 }
