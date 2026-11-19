@@ -113,8 +113,8 @@ h2 {
     border: 5px solid #322D29;
     width: 450px;
     height: 652px;
-    margin-left: 8px;
-    margin-top: 5px;
+    display: block;
+    margin: 5px auto 0 auto; /* centers image when used with display: block */
 }
 
 .loc-and-date-education {
@@ -252,12 +252,13 @@ html {
 }
 
 /* For small phones */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 
     .about-me-left,
     .about-me-right {
         float: none;
         width: 100%;
+        max-width: 100%;
     }
 
     .about-me-right {
@@ -283,7 +284,73 @@ html {
         width: 100%;
         max-width: 100%;
         height: auto;
-        margin-left: 0px;
+        display: block;
+        margin: 5px auto 0 auto;
+    }
+
+    #images {
+        max-width: 300px;
+        height: 350px;
+    }
+
+    /* Navigation bar */
+    .navbar {
+        flex-wrap: wrap;
+        /* allows flex items to break onto multiple lines when there isn't enough 
+        room for them to fit on a single row or column */
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        margin-left: 0;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+    /* Contact form */
+    .form-group input,
+    .form-group textarea {
+        box-sizing: border-box;
+    }
+}
+
+/* For tablets */
+@media (min-width: 481px) and (max-width: 1050px) {
+
+    .about-me-left,
+    .about-me-right {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .about-me-right {
+        margin-top: 20px;
+    }
+
+    .photo-styling {
+        float: none;
+        width: 100%;
+    }
+
+    /* Main resume columns */
+    .projects-and-experiences,
+    .second-column {
+        float: none;
+        width: 100%;
+    }
+
+    /* Images */
+    .quote-styling {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+        display: block;
+        margin: 5px auto 0 auto;
+        /* centers the image cleanly */
     }
 
     #images {
