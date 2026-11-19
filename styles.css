@@ -142,7 +142,7 @@ h2 {
 footer {
     background-color: #72383D;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 footer h2 {
@@ -170,8 +170,8 @@ footer h2 {
 }
 
 footer button {
-    background-color: #72383D;
-    color: white;
+    background-color: #AC9C8D;
+    color: #EFE9E1;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
