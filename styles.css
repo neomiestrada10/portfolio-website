@@ -5,8 +5,9 @@ body {
     color: #EFE9E1;
 }
 
-h1 {
-    text-align: center;
+.override {
+    text-align: left;
+    color: #FFF;
 }
 
 h2 {
