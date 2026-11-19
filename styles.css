@@ -89,6 +89,22 @@ h2 {
     display: flow-root;
 }
 
+.quote-box {
+    border: 0px solid;
+    background-color: #72383D;
+    padding: 10px;
+    margin-top: 10px;
+    display: flow-root;
+}
+
+.quote-styling {
+    border: 5px solid #322D29;
+    width: 450px;
+    height: 652px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
 .loc-and-date-education {
     float: right;
 }
