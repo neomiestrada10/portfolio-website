@@ -244,3 +244,66 @@ html {
     scroll-behavior: smooth;
     /* makes navigation links scroll smoothly rather than jumping to sections */
 }
+
+/* For small phones */
+@media (max-width: 600px) {
+
+    /* About Me section */
+    .about-me-left,
+    .about-me-right {
+        float: none;
+        width: 100%;
+    }
+
+    .about-me-right {
+        margin-top: 20px;
+    }
+
+    .photo-styling {
+        float: none;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    /* Main resume columns */
+    .projects-and-experiences,
+    .second-column {
+        float: none;
+        width: 100%;
+    }
+
+    /* Images */
+    .quote-styling {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    #images {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Navigation bar */
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        margin-left: 0;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+    /* Contact form */
+    .form-group input,
+    .form-group textarea {
+        box-sizing: border-box;
+    }
+}
