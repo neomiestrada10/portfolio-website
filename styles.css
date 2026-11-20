@@ -12,7 +12,8 @@
     color: #EFE9E1;
     font-size: 30px;
     cursor: pointer;
-    margin-left: auto; /* pushes the icon to the far right */
+    margin-left: auto;
+    /* pushes the icon to the far right */
 }
 
 body {
@@ -125,7 +126,8 @@ h2 {
     width: 450px;
     height: 652px;
     display: block;
-    margin: 5px auto 0 auto; /* centers image when used with display: block */
+    margin: 5px auto 0 auto;
+    /* centers image when used with display: block */
 }
 
 .loc-and-date-education {
@@ -376,21 +378,36 @@ html {
     }
 
     .hamburger {
-        display: block; /* shows the ☰ button */
+        display: block;
+        /* shows the ☰ button */
     }
 
     .nav-links {
-        display: none; /* hides links until clicked */
+        display: none;
+        /* hides links until clicked */
         flex-direction: column;
         width: 100%;
         gap: 15px;
         margin-top: 15px;
         padding-top: 15px;
-        border-top: 1px solid #AC9C8D; /* subtle divider line */
+        border-top: 1px solid #AC9C8D;
+        /* subtle divider line */
     }
 
     /* Shows the menu when JavaScript adds the "active" class */
     .nav-links.active {
         display: flex;
     }
+}
+
+/* Social links sections */
+.social-links {
+    border: 0px solid;
+    background-color: #72383D;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #EFE9E1;
 }
